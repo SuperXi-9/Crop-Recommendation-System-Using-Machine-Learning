@@ -47,6 +47,7 @@
 实验结果表明，原项目在当前数据集和环境下具有较好的可复现性。模型训练流程完整，主要结果能够稳定复现。不同模型在该数据集上的表现存在差异，其中 Gaussian Naive Bayes 和 SVM 表现较优，而部分集成模型效果一般。
 
 ## 9. 仓库结构
+
 ```text
 Crop-Recommendation-System-Using-Machine-Learning/
 ├── Datasets/
@@ -55,3 +56,36 @@ Crop-Recommendation-System-Using-Machine-Learning/
 ├── Requirements.txt
 ├── Contributing.md
 └── crop recommendation model
+```
+
+## 10. 复现步骤
+
+1. 下载或克隆本仓库
+2. 创建 Python 虚拟环境
+3. 安装依赖
+4. 打开 Notebook 并按顺序运行
+5. 生成结果图表与模型输出
+6. 根据 Notebook 中的说明查看分析结论
+
+示例命令：
+
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+pip install -r Requirements.txt
+jupyter notebook
+```
+
+## 11. 小组分工
+
+- 韩杰：项目选题、仓库整理、README 编写
+- 傅垣毓：数据预处理与结果检查
+- 周蕴熙：可视化整理与结果分析
+- 王子恒：复现测试与流程记录
+
+## 12. 结论
+
+该项目基本满足结果复现和流程复现要求，但为了更符合课程作业规范，后续仍需继续补充更完整的研究报告说明、成员协作记录以及更加清晰的复现指导。
+
+
